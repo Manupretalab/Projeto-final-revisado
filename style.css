@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 18px; 
+    background-color: #edeaea;
+} 
+
+header {
+    height: 100px;
+    padding: 0 20px; 
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #BE89CB;
+}
+
+#menuNavegacao {
+    display: flex; 
+    gap: 40px; 
+}
+
+ul, ol {   
+    list-style: none;
+}
+
+#menuNavegacao li a {
+   color: #ffffff;
+   font-weight: 700;
+   text-decoration: none;
+   transition: 0.3s; 
+}
+
+#menuNavegacao li a:hover {
+    border-bottom: 2px solid #FFFFFF;
+}
+
+.linkMenu {
+    color: #ffffff; 
+    text-decoration: none;
+    font-weight: 700;
+    padding: 0 5px;
+
+    transition: 0.3s;
+}
+.linkMenu:hover {
+    border-bottom: 2px solid #ffffff;
+}
+main {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+   padding: 45px 30px; 
+   max-width: 960px;
+   margin: auto;
+}
+
+.article-container{
+    text-align: center;
+}
+
+.foto-perfil {
+    width: 150px;
+    border-radius: 50%;
+    border: 5px solid #BE89CB;
+    padding: 5px    
+}
+.foto-perfil:hover {
+    opacity: 0.6;
+}
+
+h1 {
+   font-size: 1.75em;
+}
+
+h2 {
+    font-size: 1.25em;
+}
+
+h1, h3 {
+    color: #FF4DBC;
+}
+
+h2, h4 {
+    color: #837f85;
+}
+
+p {
+    font-family: 'ABeeZee', sans-serif; 
+    padding: 18px 0;
+}
+
+.sub-section {
+    background-color: #d9dbd9;
+    width: 100%;
+}
+
+section ul {
+    list-style: none;
+    max-width: 760px;
+    margin: auto;
+}
+section ul li {
+    margin-bottom: 16px;
+}
+
+h3, h4 {
+    margin-bottom: 12px;
+}
+
+#portfolio h4 {
+    color: #661E4B;
+}
+
+footer {
+    background-color: #724796;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+
+footer li {
+    color: #FFF;
+    font-weight: 700;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+}
+
+   footer i {
+    font-size: 1.75em;
+    margin-right: 10px;
+    color: #FFF;
+}
+ 
+ footer a {
+     color: #FFF;
+ }
+
+.estilo-icone {
+
+   font-size: 32px;
+   margin-right: 10px;
+}
+.links {
+    text-decoration: none;
+    color: #ffffff;
+}
+
